@@ -1,0 +1,108 @@
+Honey4Africa Bee Management Site
+================================
+
+A portal to view detailed information about bee-keeping sites, site visits, inventory, harvests, sales and more.
+
+Assets
+------
+- Sites
+- Hives
+- Supers
+- Honey
+
+
+Information
+-----------
+- Site visits
+- Sales
+- Hive Inspections
+- Flora
+- Weather
+- Harvests
+- Incidents and Losses
+	
+
+1. Sites
+------
+Sites are areas where honey4Africa has a place of interest. All sites contain the following information:
+- ID
+- Name
+- Description
+- Type
+- Latitude
+- Longitude
+- Initial Date
+- Owner/Custodian (details)
+- Image
+- Access details
+
+A site Type can be one or more the following, and contains specific additional information:
+
+- Active Site
+  - List of  hives
+  - Site visit history
+  - Hive capacity
+  - Site conditions
+  - Safety Rating
+  - Incident History
+  - Dormant Site
+  - Dormancy reason
+  - Dormant from date
+  - Dormant until date
+	
+- Abandoned Site
+  - Reason 
+  - Abandonment Date
+
+- Potential Site
+  - Capacity
+  - Safety Rating
+
+- Work Facility
+  - Type
+  - Inventory
+
+- Harvesting Site
+  - Price of harvest
+  - Supplier Sites
+
+- Customer Sites
+  - Sales History
+
+
+Asset
+=====
+Assets are inventory cataloged and managed by the h4a website.
+
+Hive
+----
+A hive is situated at one and only one site at any given point in time. A Hive consists of a brood box containing bees, with 0 or more supers on top.
+
+A hive has the following properties:
+
+- ID
+- Date of Purchase
+- History of inspections
+- History of Moves
+- Current Supers On it
+- Current Site
+
+Super
+-----
+A super Contains the following information:
+
+- ID
+- Last inspection date. (in the inspection visits)
+- Date of Purchase
+- Number of Frames
+- Status
+  - Capped Honey
+  - Raw Honey
+  - Built out Waxed
+  - Full Wax Sheets
+  - wax strips
+  - brood
+  - drone
+  - pollen
+  - Hive ID 
+  - Site ID
